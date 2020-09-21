@@ -1,0 +1,113 @@
+\documentclass[paper=a4,fontsize=11pt]{scrartcl} % KOMA-article class
+\include{preamble}
+
+%%% Begin Document
+%%% ------------------------------------------------------------
+\begin{document}
+% you can upload a photo and include it here...
+%\begin{wrapfigure}{l}{0.5\textwidth}
+%	\vspace*{-2em}
+%		\includegraphics[width=0.15\textwidth]{photo}
+%\end{wrapfigure}
+
+\MyName{Владимир Степаненко}
+%\MySlogan{Place for your ads}
+
+\sepspace%
+
+%%% Personal details
+%%% ------------------------------------------------------------
+\NewPart{Личные данные}{}
+
+\PersonalEntry{Дата рождения}{12 июля 1999 года}
+\PersonalEntry{Телефон}{8 (985) 911--13--38}
+\PersonalEntry{EMail}{\url{vovac12@gmail.com}}
+
+%%% Education
+%%% ------------------------------------------------------------
+\NewPart{Образование}{}
+
+\EducationEntry{%
+	Программная инженерия
+	}{%
+	2017-н.в.
+	}{%
+	МГТУ им. Н. Э. Баумана
+	}{%
+	Получил навыки проектирования и создания ПО, а также понимание алгоритмов, структур данных и математики.
+}
+\sepspace%
+
+\EducationEntry{%
+	Machine Learning Engineer
+	}{%
+	2019-н.в.
+	}{%
+	Академия больших данных MADE
+	}{%
+	Получил знания в области машинного и глубокого обучения,
+	а также научился их применять на практике.
+}
+
+\sepspace%
+
+\EducationEntry{%
+	Продвинутый C/C++
+	}{%
+	2018--2018
+	}{%
+	Технопарк Mail.Ru
+	}{%
+	Получил навыки программирования на C++
+}
+
+%%% Work experience
+%%% ------------------------------------------------------------
+\NewPart{Проекты}{}
+
+\EducationEntry{%
+	DatasetLabeler
+	}{%
+	2018
+	}{%
+	Python+Django
+	}{%
+	Сайт предоставляющий возможность размечать данные в датасете.
+	Занимался написанием REST API для проекта.
+}
+
+\EducationEntry{%
+	Bedu
+	}{%
+	2020
+	}{%
+	Python+Django
+	}{%
+	Образовательная платформа. Полностью написал весь проект с нуля
+	в качестве курсовой.
+}
+
+
+
+%%% Skills
+%%% ------------------------------------------------------------
+\NewPart{Навыки}{}
+
+\SkillsEntry{Языки}{Русский (родной)}
+\SkillsEntry{}{English (чтение технической документации)}
+
+\sepspace%
+
+\SkillsEntry{ПО}{\textsc{Python}}
+\SkillsEntry{}{\textsc{Go}}
+\SkillsEntry{}{\textsc{C/C++}}
+\SkillsEntry{}{\textsc{SQL}}
+\SkillsEntry{}{\LaTeX}
+
+
+%%% References
+%%% ------------------------------------------------------------
+\NewPart{Ссылки}{}
+\SkillsEntry{Github}{\url{https://github.com/vovac12}}
+
+\end{document}
