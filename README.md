@@ -1,3 +1,3 @@
 # CV
 
-Curriculum vitae
+[Curriculum vitae](./main.pdf)
